@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="global.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+
+</head>
+
+<body>
+  <header class="header-suporte">
+    <div class="logotipoLateral">
+      <div class="imgDisplayLateral"><img src="./assets/logo_icone_admin.png" alt=""></div>
+    </div>
+    <div class="container-icon-header">
+      <span class="icon-header">
+        <i class="fi fi-tr-bells"></i>
+      </span>
+      <span class="icon-header">
+        <i class="fi fi-tr-circle-user"></i>
+      </span>
+    </div>
+  </header>
+
+  <div class="home-suporte">
+    <aside class="barra-lateral"> </aside>
+    <div class="painel-suporte">
+      <section class="container-suporte">
+        <div id="container-suporte-titulo-pagina">
+          <h1>Suportes
+          </h1>
+        </div>
+        <div class="container-inputs">
+          <div class="container-suporte-acoes">
+            <div class="container-suporte-header">
+              <h3>Buscar por suportes
+              </h3>
+              <button id="button-suporte"> Abrir suporte</button>
+            </div>
+            <div class="container-suporte-inputs">
+              <div id="inputs-filtro1">
+                <div class="input-component">
+                  <label for="Solicitante">Empresas</label>
+                  <input placeholder="Selecione uma opção" type="text" class="input-icon-wrapper filtro-empresas" data-control>
+                  <div class="input-lista">
+                    <ul>
+                      <li class="item-lista">Informe o nome da empresa</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="input-component">
+                  <label for="Solicitante">Solicitante</label>
+                  <input placeholder="Selecione uma opção" type="text" class="input-icon-wrapper filtro-solicitantes" data-control>
+                  <div class="input-lista lista-empresas">
+                    <ul>
+                      <li class="item-lista">Informe o nome do solicitante</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div id="inputs-filtro2">
+                <div class="input-component">
+                  <label for="data-criacao">Data de criação
+                  </label>
+                  <input type="text" id=dataCriacao placeholder="dd/mm/aaaa">
+                </div>
+                <div class="input-component">
+                  <label for="status">Status</label>
+                  <input placeholder="Selecione uma opção" type="text" class="input-icon-wrapper" data-control>
+                  <div class="input-lista">
+                    <ul data-control>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckbox">
+                        <label data-control l for="myCheckbox" class="custom-checkbox" id="check-description">Suportes abertos
+                        </label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckbox2">
+                        <label data-control for="myCheckbox2" class="custom-checkbox" id="check-description2">Executando</label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckbox3">
+                        <label data-control for="myCheckbox3" class="custom-checkbox" id="check-description3">Finalizado</label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckbox4">
+                        <label data-control for="myCheckbox4" class="custom-checkbox" id="check-description4">Bloqueado</label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckbox5">
+                        <label data-control for="myCheckbox5" class="custom-checkbox" id="check-description5">Inadequeado</label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckbox6">
+                        <label data-control for="myCheckbox6" class="custom-checkbox" id="check-description6">Fechado</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="input-component">
+                  <label for="canal">Canal
+                  </label>
+                  <input data-control placeholder="Selecione uma opção" type="text" class="input-icon-wrapper">
+                  <div class="input-lista">
+                    <ul data-control>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckboxCanal">
+                        <label data-control for="myCheckboxCanal" class="custom-checkbox">
+                          Plataforma Contajá - Problemas nas plataformas Contajá
+                        </label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckboxCanal2">
+                        <label data-control for="myCheckboxCanal2" class="custom-checkbox">
+                          Infraestrutura - Problemas com software e hardware, e compras
+                        </label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckboxCanal3">
+                        <label data-control for="myCheckboxCanal3" class="custom-checkbox">
+                          RPA - Problemas com RPA existentes
+                        </label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckboxCanal4">
+                        <label data-control for="myCheckboxCanal4" class="custom-checkbox"> Análise de dados - Problemas e novos projetos de análise de dados
+                        </label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckboxCanal5">
+                        <label data-control for="myCheckboxCanal5" class="custom-checkbox"> Novos produtos - Novos produtos e melhorias nas plataformas
+                        </label>
+                      </li>
+                      <li data-control class="item-lista">
+                        <input data-control type="checkbox" id="myCheckboxCanal6">
+                        <label data-control for="myCheckboxCanal6" class="custom-checkbox"> Novos produtos - Novos produtos e melhorias no RPA
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acao-busca"><button>Limpar Busca</button>
+              <button id="button-buscar">Buscar</button>
+            </div>
+          </div>
+          <div class="input-component">
+            <input placeholder="Selecione uma opção" type="text" class="input-icon-wrapper paginas" value="10" data-control>
+            <div class="input-lista paginacao">
+              <ul data-control>
+                <li class="item-lista">10</li>
+                <li class="item-lista">25
+                </li>
+                <li class="item-lista">50</li>
+                <li class="item-lista">100</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+  </div>
+
+
+
+</body>
+
+<script type="module" src="script.js"></script>
+
+</html>

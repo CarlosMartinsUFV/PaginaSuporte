@@ -1,0 +1,136 @@
+.home-suporte {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.painel-suporte {
+  display: flex;
+  height: 1000px;
+  padding: 7rem 2rem 4rem 2rem;
+}
+
+.container-suporte {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.25rem -0.125rem rgba(40, 41, 33, 0.1),
+    0 0 0.25rem 0 rgba(40, 41, 33, 0.1);
+}
+
+#container-suporte-titulo-pagina {
+  background: white;
+  padding: 1.5rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  box-shadow: 0 0.2rem 0.25rem -0.125rem rgba(40, 41, 33, 0.1);
+}
+
+#container-suporte-titulo-pagina h1 {
+  font-weight: 500;
+}
+
+/* conteudoInputsButtons */
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 20px;
+}
+
+.container-suporte-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-suporte-header h3 {
+  font-weight: 500;
+}
+
+#button-suporte {
+  color: #ffffff;
+  background-color: #396600;
+  font-weight: 500;
+}
+
+#button-buscar {
+  background-color: #edf3db;
+  color: #396600;
+}
+
+.container-suporte-acoes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid rgb(228, 225, 225);
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+}
+
+.container-suporte-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* inputs */
+
+#inputs-filtro1 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#inputs-filtro2 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.input-component {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.2rem;
+}
+
+.acao-busca {
+  display: flex;
+  gap: 1rem;
+  align-self: end;
+}
+
+/* resultados por pagina */
+
+.paginas {
+  width: 11ch;
+  background-position: 80%;
+  padding: 0.8rem 1rem;
+}
+
+.item-lista {
+  display: flex;
+  user-select: none;
+}
+
+.item-lista:hover {
+  background: #edf3db;
+  border-radius: 4px;
+}
+
+.paginacao {
+  width: 90px;
+  position: absolute;
+  top: 55px;
+}
+
+/* [data-control] {
+  background: red;
+} */

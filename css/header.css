@@ -1,0 +1,59 @@
+.header-suporte {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 50;
+}
+
+.logotipoLateral {
+  width: 100px;
+  height: 80px;
+  background-color: rgb(177, 206, 11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgDisplayLateral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgDisplayLateral img {
+  width: 45%;
+}
+
+.container-icon-header {
+  display: flex;
+  gap: 1rem;
+  margin-right: 24px;
+}
+
+.icon-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d5dace;
+  border-radius: 50%;
+}
+
+.icon-header:hover {
+  background: rgb(177, 206, 11);
+}
+
+.icon-header:hover i::before {
+  color: white;
+}
+
+i::before {
+  color: #93978e;
+  display: flex;
+}
